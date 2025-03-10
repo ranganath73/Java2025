@@ -1,0 +1,70 @@
+
+	int a[] = {10,15,65,87};
+	
+	int[] a = {10,15,65,87};
+	
+	int[] a,b,c;
+	
+	int a[], b[], c[];
+	
+	
+	System.out.println(a[10]);  // ArrayIndexOutOfBoundsException
+	
+	
+	EXCEPTION KEYWORDS:
+	====================
+	
+		try
+		catch
+		finally
+		throw
+		throws
+
+	EXCEPTION TYPES:
+	================
+
+		+Checked Exception
+		 -----------------
+		 	-Theses are checked at Compile time.
+
+		+Unchecked Exception
+		 -------------------
+		 	-These are not checked at Compile time.
+
+	HANDLING EXCEPTIONS:
+	====================
+		1.Using try catch block
+		2.Handling through the throws keyword
+
+	Exception:
+	==========
+    -It is a java library class
+    -It is the parent class of all the exception classes
+        -Exception is parent of ArrayIndexOutOfBoundsException
+					
+	Streams
+	========
+		System.in   => Input Stream
+		System.out  => Output Stream
+		System.err  => Error Stream
+	
+	Scanner:
+	==========
+		Scanner scan  = new Scanner(System.in);
+		
+		scan.nextLine();
+		scan.next();
+		
+		scan.nextInt();
+		
+		"C:\data\input-file.txt"
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

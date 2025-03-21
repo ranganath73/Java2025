@@ -1,0 +1,22 @@
+
+THREAD
+=======
+	Thread is a light weight entity.
+	
+	
+	https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html
+	
+	
+	https://docs.oracle.com/javase/8/docs/api/java/lang/Runnable.html
+	
+	https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html
+	
+	synchronized{
+	
+	
+		thread1();
+		thread2();
+	
+	
+	
+	}

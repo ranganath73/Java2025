@@ -1,0 +1,18 @@
+The Thread.sleep() method pauses a Thread for a specified period of time. For example, calling
+Thread.sleep(1000); pauses the thread for one second. Keep in mind that Thread.sleep(​)
+throws an InterruptedException, so be sure to surround it with a try/catch ​block.
+Note:
+It may seem that implementing the Runnable interface is a bit more complex than
+extending from the Thread class. However, implementing the Runnable interface is the
+preferred way to start a Thread, because it enables you to extend from another class, as
+well.
+Q:​ Fill in the blanks to implement the Runnable interface and run a new thread.
+class A ________ __________ {
+public void run() {
+System.out.println("Bye");
+}
+}
+public class App {
+public static void main(String[ ] args) {
+Thread ob = new Thread(new _________ ());
+ob.______

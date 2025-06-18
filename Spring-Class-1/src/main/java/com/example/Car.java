@@ -12,10 +12,14 @@ public class Car {
 	@Autowired
 	private Gear gear;
 	
+	@Autowired
+	private Gps gps;
+	
 	public void start() {
 		engine.start();
 		gear.change();
 		System.out.println("Car is running...");
+		gps.switchOn();
 	}
 
 }
